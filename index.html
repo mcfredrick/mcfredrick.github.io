@@ -1,55 +1,280 @@
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link href="StyleSheet.css" rel="stylesheet" type="text/css">
-<nav>
- 
-    
-    <ul id='navbar'> 
-      <li>
-       <left class="image-container">
-        <img src="ProPic.jpg" alt="Avatar" />
-       </left>
-      </li>
-      <li><a href="index.html">About</a></li>
-      <li><a target="_blank" href=Fredrick%20SoDev%20Resume.pdf>Resume</a></li>
-      <li><a href="#contact">Contact</a></li>
-    </ul>
-    
-    <div class="hline1"></div> 
-    
-    <div class="hline2"></div>
-  </nav>
-  
-  
-  <div id="welcome-section" class="intro">
-  
-    <h1>Matt Fredrick</h1>
-    <p>Software Developer</p>
-  
-  
-  </div>
-  <div id="projects" class="work">
-    <h2 class="work-header">Portfolio</h2>
-    <a href="" target="_blank" class="project project-tile">
-      <img class="project-pic" src="coming%20soon.png" alt="project">
-      <div class="project-title">Drag and Drop Drums</div>
-    </a>
-    <a href="" target="_blank" class="project project-tile">
-      <img class="project-pic" src="coming%20soon.png" alt="project">
-      <div class="project-title">Simple MIDI Synth</div>
-    </a>
-  
-    <a href="#contact" class="show-all" target="_blank">Contact</a>
-  </div>
-  <div id="contact" class="contact">
-    <div class="header">
-      <h1>Let's work together.</h1>
-      <p>Get in touch.</p>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="Matthew Fredrick's career profile website.">
+  <meta name="author" content="Matthew Fredrick">
+
+  <title>Matthew Fredrick</title>
+
+
+  <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom fonts for this template -->
+  <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+
+  <!-- Custom styles for this template -->
+  <link href="css/grayscale.min.css" rel="stylesheet">
+
+</head>
+
+<body id="page-top">
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+    <div class="container">
+      <a class="navbar-brand js-scroll-trigger" href="#page-top">Home</a>
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        Menu
+        <i class="fas fa-bars"></i>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" target = "blank" href="assets\Fredrick SoDev Resume.pdf">Resum&eacute;</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
     </div>
-    <a id='profile-link' href="https://github.com/mcfredrick" target="_blank" class="contact-details">GitHub</a>
-    <a href="https://www.linkedin.com/in/mattcfredrick" target="_blank" class="contact-details">LinkedIn</a>
-    <a href="mailto:mattcfredrick@gmail.com" class="contact-details">Email</a>
-    <a href="tel:617-596-2190" class="contact-details">Phone</a>
-  </div>
-  <footer>All rights reserved.
-    <p>&copy; 2019 Matt Fredrick</p>
+  </nav>
+
+  <!-- Header -->
+  <header class="masthead">
+    <div class="container d-flex h-100 align-items-center">
+      <div class="mx-auto text-center">
+        <h1 class="mx-auto my-0 text-uppercase">Matthew Fredrick</h1>
+        <h2 class="text-white-50 mx-auto mt-2 mb-5 text-justify">
+          An enthusiastic programmer and problem 
+          solver with an affinity for learning and constant improvement.
+        </h2>
+        <a href="#about" class="btn btn-primary js-scroll-trigger">Tell me more.</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- About Section -->
+  <section id="about" class="about-section text-justify">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 mx-auto">
+          <h2 class="text-white mb-4">About</h2>
+          <p class="text-white-50" style ="padding-bottom: 20%">
+            I've been fascinated by programming 
+            from a young age. Always interested in how things worked, reverse engineering has 
+            been my most prolific avocation. I'm happiest when I'm learning something new and 
+            discovering applications for that knowledge.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Professional Summary Section -->
+  <section id="projects" class="projects-section bg-light">
+    <div class="container">
+
+      <!-- Objective -->
+      <div class="row align-items-center no-gutters mb-4 mb-lg-5">
+        <div class="col-xl-8 col-lg-7">
+          <img class="img-fluid mb-3 mb-lg-0" src="img/bg-masthead.jpg" alt="">
+        </div>
+        <div class="col-xl-4 col-lg-5">
+          <div class="featured-text text-justify text-lg-left">
+            <h4>Objective</h4>
+            <p class="text-black-50 mb-0 text-justify">
+              I am looking to leverage the skills and experience 
+              from my engineering career to tackle new challenges in software development and 
+              continue to build on a solid knowledge base in a field that pushes me to learn and
+              innovate.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Education -->
+      <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
+        <div class="col-lg-6">
+          <img class="img-fluid" src="img/demo-image-01.jpg" alt="">
+        </div>
+        <div class="col-lg-6">
+          <div class="bg-black text-justify h-100 project">
+            <div class="d-flex h-100">
+              <div class="project-text w-100 my-auto text-justify text-lg-left">
+                <h4 class="text-white">Education</h4>
+                <p class="mb-0 text-white-50 text-justify">
+                  I earned a BSME from Worcester Polytechnic Institute. 
+                  Along the way, I learned to apply programming and engineering principles to tackle 
+                  interdisciplinary projects with teams. I always enjoyed developing software to 
+                  solve complex computational problems. Writing code was an integral part of the
+                  engineering design process for me.
+                </p>
+                <hr class="d-none d-lg-block mb-0 ml-0">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Professional Achievements -->
+      <div class="row justify-content-center no-gutters">
+        <div class="col-lg-6">
+          <img class="img-fluid" src="img/demo-image-02.jpg" alt="">
+        </div>
+        <div class="col-lg-6 order-lg-first">
+          <div class="bg-black text-justify h-100 project">
+            <div class="d-flex h-100">
+              <div class="project-text w-100 my-auto text-justify text-lg-right">
+                <h4 class="text-white">Professional Achievements</h4>
+                <ul class="mb-0 text-white-50 text-justify">
+                  <li>Laid the groundwork for automating architectural drafting workflow combining CAD, programming, parts 
+                  databases, and Excel API.
+                  </li>
+                  <li>Produced the user manual and troubleshooting guide for a line of scientific equipment.</li>
+                  <li>Managed R&D projects for a startup working on applications of emerging technology.</li>
+                </ul>
+                <hr class="d-none d-lg-block mb-0 mr-0">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Signup Section UNDER CONSTRUCTION: Needs php file to email form submission.
+  <section id="signup" class="signup-section">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-10 col-lg-8 mx-auto text-center">
+
+          <i class="far fa-paper-plane fa-2x mb-2 text-white"></i>
+          <h2 class="text-white mb-5">Drop me a line!</h2>
+
+          <form class="form-inline d-flex" action=CALL TO PHP FILE>
+            <input type="email" class="form-control flex-fill mr-0 mr-sm-2 mb-3 mb-sm-0" id="inputEmail" placeholder="Enter email address..."></br>
+            <input type="text" class="form-control flex-fill mr-0 mr-sm-2 mb-3 mb-sm-0" id="inputName" placeholder="Enter name..."><br>
+            <input type="text" class="form-control flex-fill mr-0 mr-sm-2 mb-3 mb-sm-0" id="inputMsg" placeholder="Enter message..."><br>
+            <button type="submit" class="btn btn-primary mx-auto">Send Message</button>
+          </form>
+
+        </div>
+      </div>
+    </div>
+  </section> -->
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact-section bg-black">
+    <div class="container">
+
+      <div class="row justify-content-center">
+
+        <div class="col-md-4 mb-3 mb-md-0">
+          <div class="card py-4 h-100">
+            <div class="card-body text-center">
+              <i class="fab fa-linkedin text-primary mb-2"></i>
+              <h4 class="text-uppercase m-0">LinkedIn</h4>
+              <hr class="my-4">
+              <div class="small text-black-50">
+                <a target="blank" href="https://www.linkedin.com/in/mattcfredrick">Find me on LinkedIn.</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4 mb-3 mb-md-0">
+          <div class="card py-4 h-100">
+            <div class="card-body text-center">
+              <i class="fas fa-envelope text-primary mb-2"></i>
+              <h4 class="text-uppercase m-0">Email</h4>
+              <hr class="my-4">
+              <div class="small text-black-50">
+                <a href="mailto:mattcfredrick@gmail.com">mattcfredrick@gmail.com</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="row justify-content-center">
+
+        <div class="col-md-4 mb-3 mb-md-0">
+          <div class="card py-4 h-100">
+            <div class="card-body text-center">
+              <i class="fas fa-mobile-alt text-primary mb-2"></i>
+              <h4 class="text-uppercase m-0">Phone</h4>
+              <hr class="my-4">
+              <div class="small text-black-50">
+                <a href="tel:617-596-2190">(617) 596-2190</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4 mb-3 mb-md-0">
+            <div class="card py-4 h-100">
+              <div class="card-body text-center">
+                <i class="fab fa-github text-primary mb-2"></i>
+                <h4 class="text-uppercase m-0">GitHub</h4>
+                <hr class="my-4">
+                <div class="small text-black-50">
+                    <a target="blank" href="https://github.com/mcfredrick">Find me on GitHub.</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+
+  <!-- HIDING SOCIAL MEDIA LINKS FOR NOW
+      <div class="social d-flex justify-content-center">
+        <a href="#" class="mx-2">
+          <i class="fab fa-twitter"></i>
+        </a>
+        <a href="#" class="mx-2">
+          <i class="fab fa-facebook-f"></i>
+        </a>
+        <a href="#" class="mx-2">
+          <i class="fab fa-github"></i>
+        </a>
+      </div>
+
+    </div>
+  </section> -->
+  
+
+  <!-- Footer -->
+  <footer class="bg-black small text-center text-white-50">
+    <div class="container">
+      Copyright &copy; Matthew Fredrick 2019. All rights reserved.
+    </div>
   </footer>
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Plugin JavaScript -->
+  <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+  <!-- Custom scripts for this template -->
+  <script src="js/grayscale.min.js"></script>
+
+</body>
+
+</html>
