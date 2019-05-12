@@ -166,13 +166,13 @@ nav ul li a:visited {
 
 .header {
   color: white;
-  padding: 160px 0 110px;
+  padding: 10% 0 2em;
 }
 
 .contact-details {
   display: inline-block;
   font-weight: bold;
-  margin: 2rem 2rem 2rem 2rem;
+  margin: 1.5rem 1.5rem 1.5rem 1.5rem;
   list-style-type: none;
   border: 1px solid black;
   border-radius: 35%;
