@@ -172,7 +172,7 @@ nav ul li a:visited {
 .contact-details {
   display: inline-block;
   font-weight: bold;
-  margin: 0 35px 45px 35px;
+  margin: 2rem 2rem 2rem 2rem;
   list-style-type: none;
   border: 1px solid black;
   border-radius: 35%;
