@@ -161,7 +161,7 @@ nav ul li a:visited {
   height:60%;
   min-height:800px;
   background: #000142;
-  padding-bottom: 160px;
+  padding-bottom: 15%;
 }
 
 .header {
@@ -190,7 +190,7 @@ nav ul li a:visited {
 }
 
 .footer {
-  padding: 20px;
+  padding: 2%;
   background: white;
   color: #000142;
   line-height: 40px;
