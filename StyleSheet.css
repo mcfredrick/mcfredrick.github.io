@@ -158,8 +158,8 @@ nav ul li a:visited {
 }
 
 .contact {
-  /*   height:800px; */
-  /*   min-height:800px; */
+  height:80%;
+  min-height:800px;
   background: #000142;
   padding-bottom: 160px;
 }
