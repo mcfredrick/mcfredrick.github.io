@@ -11,16 +11,28 @@ body {
   padding: 0;
 }
 
+.image-container {
+  overflow: hidden;
+}
+
+.image-container img {
+  padding: 2.5%;
+  width: 3rem;
+  height: auto;
+  display: block;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: right;
+  position: relative;
+}
+
 .intro {
   top: 0;
   background: white;
   color:#000142;
   min-height: 55vh;
   padding-top: 45vh;
-  /*   line-height: 100vh; */
-  /*   width:100%;
-  height:96vh;
-border:solid; */
 }
 
 .intro p {
@@ -32,18 +44,32 @@ nav ul {
   position: fixed;
   width: 100%;
   background-color: #000142;
+  max-height: 60px;
+  padding-bottom: 15px;
+  padding-bottom: 15px;
 }
 
 nav ul li {
   display: inline-block;
-  margin: 45px;
-  margin-bottom: 15px;
-  margin-top: 25px;
+  font-size: 1rem;
+  margin-top: 15px;
+  margin-left: 50px;
+  margin-right: 50px;
 }
 
 nav ul li a {
+  float: right;
   color: white;
   text-decoration: none;
+  text-align: center;
+  padding: 1rem 1rem;
+}
+
+nav ul li left {
+  float: left;
+  color: white;
+  text-decoration: none;
+  text-align: center;
 }
 
 nav ul li a:hover {
@@ -51,7 +77,7 @@ nav ul li a:hover {
 }
 
 nav ul li a:active {
-  font-size: 15px;
+  font-size: 1.15rem;
 }
 
 nav ul li a:visited {
