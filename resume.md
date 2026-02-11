@@ -1,6 +1,5 @@
 ---
 layout: resume
-title: Resume - Matthew Fredrick
 description: Resume for Matthew Fredrick - Senior AI/ML Software Engineer
 ---
 
@@ -8,13 +7,13 @@ description: Resume for Matthew Fredrick - Senior AI/ML Software Engineer
 
 **Senior AI/ML Software Engineer | Technical Lead**
 
-Chelmsford, MA | mcfredrick@pm.me | linkedin.com/in/mattcfredrick | github.com/mcfredrick
+Chelmsford, MA | [mcfredrick@pm.me](mailto:mcfredrick@pm.me) | [linkedin.com/in/mattcfredrick](https://linkedin.com/in/mattcfredrick) | [github.com/mcfredrick](https://github.com/mcfredrick)
 
 ---
 
 ## Key Achievements
 
-- **Technical Leadership Across a 15+ Engineer Org** – Drive technical direction and architecture reviews across multiple teams; own roadmaps for key AI/ML initiatives with near-total autonomy; regularly review designs and provide architectural guidance that shapes how peers build and ship
+- **Technical Leadership Across a 15+ Engineer Org** – Drive technical direction and architecture reviews across multiple teams; own roadmaps for key AI/ML initiatives; regularly review designs and provide architectural guidance that shapes how peers build and ship
 - **MLOps Platform Architecture** – Architected a comprehensive MLOps platform for AI/ML model lifecycle management using Airflow and MLflow; established organizational standards for continuous training, monitoring, and deployment now adopted across multiple teams
 - **Enterprise AI Safety at Scale** – Led the design and delivery of LLM guardrails and safety features protecting millions of users; deployed models spanning content filtering, prompt injection defense, jailbreak prevention, and toxicity detection
 - **End-to-End System Ownership** – Drive initiatives from conception to production with full autonomy, including synthetic data pipelines (90% effort reduction), autonomous red-teaming agents, and multilingual safety classifiers across multiple classification domains
