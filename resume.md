@@ -1,3 +1,9 @@
+---
+layout: resume
+title: Resume - Matthew Fredrick
+description: Resume for Matthew Fredrick - Senior AI/ML Software Engineer
+---
+
 # Matthew Fredrick
 
 **Senior AI/ML Software Engineer | Technical Lead**
