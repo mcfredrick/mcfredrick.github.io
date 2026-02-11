@@ -1,270 +1,136 @@
-﻿<!DOCTYPE html>
-<html lang="en">
+---
+layout: default
+---
 
-<head>
+<section class="hero" id="hero">
+  <div class="hero__overlay"></div>
+  <div class="hero__content">
+    <h1 class="hero__name">Matthew Fredrick</h1>
+    <p class="hero__title">Senior AI/ML Software Engineer | Technical Lead</p>
+    <p class="hero__tagline">Building enterprise AI safety systems and MLOps platforms that protect millions of users.</p>
+    <div class="hero__cta">
+      <a href="#about" class="btn btn--primary">Learn More</a>
+      <a href="{{ '/resume' | relative_url }}" class="btn btn--outline">View Resume</a>
+    </div>
+  </div>
+</section>
 
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="description" content="Matthew Fredrick's career profile website.">
-  <meta name="author" content="Matthew Fredrick and DayJobDevelopment">
+<section class="section" id="about">
+  <div class="container">
+    <h2 class="section__title">About</h2>
+    <p class="about__text">Senior AI/ML Software Engineer at Cisco with a track record of shipping enterprise-scale AI safety systems and MLOps platforms. I lead cross-functional teams to deliver production ML solutions&mdash;from LLM guardrails protecting millions of users to synthetic data pipelines that cut development time by 90%. I'm looking for technical leadership roles where I can drive high-impact AI initiatives from conception to production.</p>
+  </div>
+</section>
 
-  <title>Matthew Fredrick - Audio Software Engineer</title>
-
-
-  <!-- Bootstrap core CSS -->
-  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-
-  <!-- Custom fonts for this template -->
-  <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet">
-  <link
-    href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i"
-    rel="stylesheet">
-
-  <!-- Custom styles for this template--> 
-  <link href="css/grayscale.min.css" rel="stylesheet">
-
-</head>
-
-<body id="page-top">
-
-  <!-- Navigation -->
-  <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
-    <div class="container">
-      
-      <a class="navbar-brand js-scroll-trigger" href="#page-top">Home</a>
-      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
-        data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
-        aria-label="Toggle navigation">
-        Menu
-        <i class="fas fa-bars"></i>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarResponsive">
-        <ul class="navbar-nav ml-auto">
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#about">About</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" target="blank" href="https://github.com/mcfredrick">Projects</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" target="blank"
-              href="assets\Audio Software Dev 04-2022.pdf">Resum&eacute;</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
-          </li>
-        </ul>
+<section class="section section--alt" id="highlights">
+  <div class="container">
+    <h2 class="section__title">Key Highlights</h2>
+    <div class="cards">
+      <div class="card">
+        <h3 class="card__title">Technical Leadership</h3>
+        <p class="card__text">Daily partnership with product, security, linguistics, and platform teams. Go-to technical authority for MLOps strategy across the organization.</p>
+      </div>
+      <div class="card">
+        <h3 class="card__title">MLOps Platform</h3>
+        <p class="card__text">Architected a comprehensive MLOps platform for AI/ML model lifecycle management using Airflow and MLflow, adopted across multiple teams.</p>
+      </div>
+      <div class="card">
+        <h3 class="card__title">AI Safety at Scale</h3>
+        <p class="card__text">Designed and shipped LLM guardrails and safety features protecting millions of users&mdash;content filtering, prompt injection defense, jailbreak prevention, and toxicity detection.</p>
+      </div>
+      <div class="card">
+        <h3 class="card__title">End-to-End Delivery</h3>
+        <p class="card__text">Led initiatives from conception to production including synthetic data pipelines that reduced data-creation effort by ~90% and autonomous red-teaming agents.</p>
       </div>
     </div>
-  </nav>
-  <!-- /Navigation -->
+  </div>
+</section>
 
-  <!-- Header -->
-  <header class="masthead">
-    <div class="container d-flex h-100 align-items-center">
-      <div class="mx-auto text-center">
-        <h1 class="mx-auto my-0">Matthew Fredrick</h1>
-        <hr>
-        <h3 class="text-white-50 mx-auto mt-2 mb-5 text-center">
-          Audio Software Engineer
-        </h3>
-        <h2 class="text-white-50 mx-auto mt-2 mb-5 text-justify">
-          <p>Hello World! I am a software engineer specializing in audio production technology.</p>
-          <p>I'm determined to contribute to the advancement of cutting edge tools for musicians and producers.</p>
-          <p>I'd love to hear about your project and help you realize your vision!</p>
-        </h2>
-        <a href="#about" class="btn btn-primary js-scroll-trigger">Tell me more.</a>
+<section class="section" id="skills">
+  <div class="container">
+    <h2 class="section__title">Technical Skills</h2>
+    <div class="skills">
+      <div class="skills__group">
+        <h3 class="skills__label">ML/AI</h3>
+        <div class="skills__tags">
+          <span class="tag">PyTorch</span>
+          <span class="tag">TensorFlow</span>
+          <span class="tag">scikit-learn</span>
+          <span class="tag">Hugging Face</span>
+          <span class="tag">Computer Vision</span>
+          <span class="tag">Transformer Fine-tuning</span>
+          <span class="tag">AI Agents</span>
+          <span class="tag">Guardrails</span>
+          <span class="tag">Synthetic Data</span>
+        </div>
       </div>
-    </div>
-  </header>
-  <!-- /Header -->
-
-  <!-- About Section -->
-  <section id="about" class="about-section text-justify">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-8 mx-auto">
-          <h2 class="text-white mb-4">About</h2>
-          <p class="text-white-50">
-            My mission is to provide professional technical services to audio industry entrepreneurs, musicians and
-            educators. I aim to bolster productivity and creativity in the medium of audio through the development of
-            new tools and technologies.
-            <!--<br><br>
-            I also work to accelerate careers in audio by providing web presence consulting
-            and online content services to music industry professionals.--></p>
-
+      <div class="skills__group">
+        <h3 class="skills__label">MLOps</h3>
+        <div class="skills__tags">
+          <span class="tag">Weights & Biases</span>
+          <span class="tag">MLflow</span>
+          <span class="tag">Airflow</span>
+          <span class="tag">GitHub Actions</span>
+          <span class="tag">CI/CD</span>
+          <span class="tag">A/B Testing</span>
+        </div>
+      </div>
+      <div class="skills__group">
+        <h3 class="skills__label">Cloud & Infra</h3>
+        <div class="skills__tags">
+          <span class="tag">AWS</span>
+          <span class="tag">Azure</span>
+          <span class="tag">Kubernetes</span>
+          <span class="tag">Docker</span>
+          <span class="tag">Pulumi</span>
+        </div>
+      </div>
+      <div class="skills__group">
+        <h3 class="skills__label">Languages</h3>
+        <div class="skills__tags">
+          <span class="tag">Python</span>
+          <span class="tag">C++</span>
+          <span class="tag">Rust</span>
         </div>
       </div>
     </div>
-  </section>
-  <!-- /About Section -->
+  </div>
+</section>
 
-  <!-- Professional Summary Section -->
-  <section id="projects" class="projects-section bg-light">
-    <div class="container">
-
-      <!-- Objective
-      <div class="row align-items-center no-gutters mb-4 mb-lg-5">
-        <div class="col-xl-8 col-lg-7">
-          <img class="img-fluid mb-3 mb-lg-0" src="assets\MoonBW.jpeg" alt="">
-        </div>
-        <div class="col-xl-4 col-lg-5">
-          <div class="featured-text text-justify text-lg-left">
-            <h4>Projects</h4>
-            <p class="text-black-50 mb-0 text-justify">
-              <ul class="mb-0 text-black-50 text-justify">
-                <li><a href="http://www.diotonic.com" target="_blank">dIOtonic</a> is my outlet for new software and
-                  tools to bolster productivity and creativity in your
-                  musical endeavors. Bedroom producers and amateur musicians are at the heart of dIOtonic's development
-                  philosophy. Our aim is to
-                  provide tools to help you produce audio you're proud to share and have fun doing it.
-                </li>
-                <br>
-                <li>Software developer and technical/enigneering consultant on an audio-based augmented reality device
-                  using computer vision, MIDI, and audio synthesis.
-                </li>
-                <!--
-<br>
-                <li>Holistic web marketing and online presence consulting for entrepreneurs in the audio industry.
-                  Current project: working with a local music educator on a new flagship website for
-                  their online marketing campaign as part of a strategy to increase enrollment. Stay tuned
-                  for updates when the site goes live.
-                </li>
---*>
-                <br>
-                <li>I love open source and I'm always looking to share things that help me along the way. Check out what
-                  I'm working on at <a href="http://www.github.com/mcfredrick/" target="_blank">GitHub</a>
-                </li>
-              </ul>
-            </p>
-          </div>
-        </div>
-      </div>
-      <!-- /Objective -->
-
-      <!-- Education -->
-      <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
-        <div class="col-lg-6">
-          <img class="img-fluid" src="assets/FrozenLakeBW.jpeg" alt="">
-        </div>
-        <div class="col-lg-6">
-          <div class="bg-black text-justify h-100 project">
-            <div class="d-flex h-100">
-              <div class="project-text w-100 my-auto text-justify text-lg-left">
-                <h4 class="text-white">Education</h4>
-                <p class="mb-0 text-white-50 text-justify">
-                  My interests in programming have evolved over time. What has become a passion for
-                  combining music and technology was born out of a love for problem solving. I first began to see how powerful writing
-                  code could be in my engineering studies. I soon realized how much I enjoyed programming
-                  and especially relished the challenge of creating robust solutions which I could apply
-                  to other problems or which I could expand upon to solve more complex problems.
-                </p>
-                <br>
-                <p class="mb-0 text-white-50 text-justify">
-                  I earned a BSME from Worcester Polytechnic Institute.
-                  Along the way, I learned to apply programming and engineering principles to tackle
-                  interdisciplinary projects with diverse teams. I always enjoyed developing software to
-                  solve complex computational and engineering problems. Thus writing code has been an integral part of the
-                  engineering design process for me.
-                </p>
-                <hr class="d-none d-lg-block mb-0 ml-0">
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <!-- /Education -->
-
+<section class="section section--alt" id="work">
+  <div class="container">
+    <h2 class="section__title">Featured Work</h2>
+    <div class="work-items">
+      <a href="https://gist.github.com/mcfredrick/8a5fad0e718b2c48e91f20d9f8b3ff13" class="work-item" target="_blank" rel="noopener">
+        <h3 class="work-item__title">PR Review Feedback Extractor</h3>
+        <p class="work-item__desc">Extracts PR review feedback and generates AI-ready prompts for continuous improvement.</p>
+        <span class="work-item__meta">GitHub Gist &middot; Dec 2025</span>
+      </a>
+      <a href="https://github.com/mcfredrick" class="work-item" target="_blank" rel="noopener">
+        <h3 class="work-item__title">More on GitHub</h3>
+        <p class="work-item__desc">Open source projects and contributions.</p>
+        <span class="work-item__meta">github.com/mcfredrick</span>
+      </a>
     </div>
+  </div>
+</section>
 
-  </section>
-  <!-- /Professional Summary Section -->
-
-  <!-- Contact Section -->
-  <section id="contact" class="contact-section bg-black">
-    <div class="container">
-
-      <div class="row justify-content-center">
-
-        <div class="col-md-4 mb-3 mb-md-0">
-          <div class="card py-4 h-100">
-            <div class="card-body text-center">
-              <i class="fab fa-linkedin text-primary mb-2"></i>
-              <h4 class="text-uppercase m-0">LinkedIn</h4>
-              <hr class="my-4">
-              <div class="small text-black-50">
-                <a target="blank" href="https://www.linkedin.com/in/mattcfredrick">Find me on LinkedIn.</a>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-md-4 mb-3 mb-md-0">
-          <div class="card py-4 h-100">
-            <div class="card-body text-center">
-              <i class="fas fa-envelope text-primary mb-2"></i>
-              <h4 class="text-uppercase m-0">Email</h4>
-              <hr class="my-4">
-              <div class="small text-black-50">
-                <a href="mailto:mattcfredrick@gmail.com">mattcfredrick@gmail.com</a>
-              </div>
-            </div>
-          </div>
-        </div>
-
-      </div>
-
-      <div class="row justify-content-center">
-
-        <div class="col-md-4 mb-3 mb-md-0">
-          <div class="card py-4 h-100">
-            <div class="card-body text-center">
-              <i class="fas fa-mobile-alt text-primary mb-2"></i>
-              <h4 class="text-uppercase m-0">Phone</h4>
-              <hr class="my-4">
-              <div class="small text-black-50">
-                <a href="tel:617-596-2190">(617) 596-2190</a>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-md-4 mb-3 mb-md-0">
-          <div class="card py-4 h-100">
-            <div class="card-body text-center">
-              <i class="fab fa-github text-primary mb-2"></i>
-              <h4 class="text-uppercase m-0">GitHub</h4>
-              <hr class="my-4">
-              <div class="small text-black-50">
-                <a target="blank" href="https://github.com/mcfredrick">Find me on GitHub.</a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
+<section class="section" id="contact">
+  <div class="container">
+    <h2 class="section__title">Get in Touch</h2>
+    <div class="contact-links">
+      <a href="mailto:mcfredrick@pm.me" class="contact-link">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+        <span>mcfredrick@pm.me</span>
+      </a>
+      <a href="https://linkedin.com/in/mattcfredrick" class="contact-link" target="_blank" rel="noopener">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 0 1-2.063-2.065 2.064 2.064 0 1 1 2.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+        <span>LinkedIn</span>
+      </a>
+      <a href="https://github.com/mcfredrick" class="contact-link" target="_blank" rel="noopener">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
+        <span>GitHub</span>
+      </a>
     </div>
-    <!-- /Contact Section -->
-
-    <!-- Footer -->
-    <footer class="bg-black small text-center text-white-50">
-      <div class="container">
-        Copyright &copy; Matthew Fredrick and DayJobDevelopment 2019. All rights reserved.
-      </div>
-    </footer>
-    <!-- /Footer -->
-
-    <!-- Bootstrap core JavaScript -->
-    <script src="vendor/jquery/jquery.min.js"></script>
-    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-
-    <!-- Plugin JavaScript -->
-    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
-
-    <!-- Custom scripts for this template -->
-    <script src="js/grayscale.min.js"></script>
-
-</body>
-
-</html>
+  </div>
+</section>

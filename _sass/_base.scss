@@ -1,0 +1,119 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+// Theme custom properties
+[data-theme="light"] {
+  --bg: #{$light-bg};
+  --bg-alt: #{$light-bg-alt};
+  --text: #{$light-text};
+  --text-muted: #{$light-text-muted};
+  --border: #{$light-border};
+  --card-bg: #{$light-card-bg};
+  --accent: #{$blue};
+  --hero-overlay: rgba(15, 23, 42, 0.7);
+  --tag-bg: #{$light-bg-alt};
+  --tag-border: #{$light-border};
+}
+
+[data-theme="dark"] {
+  --bg: #{$dark-bg};
+  --bg-alt: #{$dark-bg-alt};
+  --text: #{$dark-text};
+  --text-muted: #{$dark-text-muted};
+  --border: #{$dark-border};
+  --card-bg: #{$dark-card-bg};
+  --accent: #{$blue-light};
+  --hero-overlay: rgba(15, 23, 42, 0.85);
+  --tag-bg: #{$dark-bg-alt};
+  --tag-border: #{$dark-border};
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 4rem;
+}
+
+body {
+  font-family: $font-family;
+  font-size: $font-size-base;
+  line-height: 1.6;
+  color: var(--text);
+  background-color: var(--bg);
+  transition: background-color $transition, color $transition;
+  -webkit-font-smoothing: antialiased;
+}
+
+a {
+  color: var(--accent);
+  text-decoration: none;
+  transition: opacity $transition;
+
+  &:hover {
+    opacity: 0.8;
+  }
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+.container {
+  max-width: $container-max;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+}
+
+.section {
+  padding: $section-padding;
+
+  &--alt {
+    background-color: var(--bg-alt);
+  }
+}
+
+.section__title {
+  font-size: 1.75rem;
+  font-weight: 700;
+  margin-bottom: 2rem;
+}
+
+.btn {
+  display: inline-block;
+  padding: 0.75rem 1.5rem;
+  font-size: 0.9rem;
+  font-weight: 600;
+  font-family: $font-family;
+  border-radius: 6px;
+  border: 2px solid transparent;
+  cursor: pointer;
+  transition: all $transition;
+  text-decoration: none;
+
+  &--primary {
+    background-color: var(--accent);
+    color: #fff;
+    border-color: var(--accent);
+
+    &:hover {
+      opacity: 0.9;
+    }
+  }
+
+  &--outline {
+    background-color: transparent;
+    color: #fff;
+    border-color: rgba(255, 255, 255, 0.5);
+
+    &:hover {
+      border-color: #fff;
+      color: #fff;
+      opacity: 1;
+    }
+  }
+}

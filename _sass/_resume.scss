@@ -1,0 +1,107 @@
+.resume-page {
+  padding: 6rem 0 4rem;
+
+  &__header {
+    margin-bottom: 2rem;
+    display: flex;
+    justify-content: flex-end;
+  }
+}
+
+.resume-content {
+  h1 {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 0.25rem;
+  }
+
+  h1 + p {
+    font-size: 1.15rem;
+    font-weight: 600;
+    color: var(--accent);
+    margin-bottom: 0.25rem;
+  }
+
+  h1 + p + p {
+    font-size: 0.9rem;
+    color: var(--text-muted);
+    margin-bottom: 1rem;
+  }
+
+  h2 {
+    font-size: 1.35rem;
+    font-weight: 700;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    padding-bottom: 0.25rem;
+    border-bottom: 2px solid var(--accent);
+  }
+
+  h3 {
+    font-size: 1.05rem;
+    font-weight: 600;
+    margin-top: 1.5rem;
+    margin-bottom: 0.75rem;
+  }
+
+  ul {
+    padding-left: 1.25rem;
+    margin-bottom: 1rem;
+  }
+
+  li {
+    margin-bottom: 0.5rem;
+    line-height: 1.6;
+    font-size: 0.95rem;
+    color: var(--text-muted);
+  }
+
+  li strong {
+    color: var(--text);
+  }
+
+  p {
+    margin-bottom: 0.75rem;
+    line-height: 1.6;
+    font-size: 0.95rem;
+  }
+
+  hr {
+    border: none;
+    border-top: 1px solid var(--border);
+    margin: 1.5rem 0;
+  }
+
+  a {
+    color: var(--accent);
+  }
+}
+
+@media print {
+  .nav,
+  .footer,
+  .resume-page__header {
+    display: none;
+  }
+
+  .resume-page {
+    padding: 0;
+  }
+
+  .resume-content {
+    font-size: 11pt;
+    color: #000;
+
+    h1, h2, h3, strong, li strong {
+      color: #000;
+    }
+
+    li {
+      color: #333;
+    }
+
+    h2 {
+      border-bottom-color: #333;
+    }
+  }
+}

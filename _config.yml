@@ -1,0 +1,18 @@
+title: Matthew Fredrick
+description: Senior AI/ML Software Engineer | Technical Lead
+url: "https://mcfredrick.github.io"
+baseurl: ""
+
+markdown: kramdown
+kramdown:
+  input: GFM
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - LICENSE
