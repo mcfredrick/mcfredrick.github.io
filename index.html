@@ -13,18 +13,7 @@ layout: default
       <a href="{{ '/resume' | relative_url }}" class="btn btn--outline">View Resume</a>
       <a href="#about" class="btn btn--outline">Learn More</a>
     </div>
-  </div>
-</section>
-
-<section class="section blog-callout" id="blog">
-  <div class="container">
-    <div class="blog-callout__inner">
-      <div class="blog-callout__text">
-        <h2 class="blog-callout__title">Tenkai Blog</h2>
-        <p class="blog-callout__desc">I run an autonomous AI blog that curates and distills the latest AI news for developers — updated daily, no fluff.</p>
-      </div>
-      <a href="http://tenkai.blog" class="btn btn--primary" target="_blank" rel="noopener">Read the Blog &rarr;</a>
-    </div>
+    <p class="hero__blog-plug">I also run <a href="http://tenkai.blog" target="_blank" rel="noopener">tenkai.blog</a> &mdash; autonomous AI news for developers.</p>
   </div>
 </section>
 
@@ -115,6 +104,11 @@ layout: default
   <div class="container">
     <h2 class="section__title">Featured Work</h2>
     <div class="work-items">
+      <a href="http://tenkai.blog" class="work-item work-item--featured" target="_blank" rel="noopener">
+        <h3 class="work-item__title">Tenkai Blog</h3>
+        <p class="work-item__desc">An autonomous AI agent that researches, writes, and publishes daily news for developers — no human editorial involvement. Built on a custom agentic pipeline with LLM-driven curation and synthesis.</p>
+        <span class="work-item__meta">Live &middot; tenkai.blog</span>
+      </a>
       <a href="https://mcfredrick.github.io/resume-rag" class="work-item work-item--featured" target="_blank" rel="noopener">
         <h3 class="work-item__title">Resume RAG &mdash; Chat with My Experience</h3>
         <p class="work-item__desc">An interactive demo built with Retrieval-Augmented Generation: ask any question about my background and get grounded, cited answers drawn directly from my resume. Built with a vector store, embedding pipeline, and an LLM response layer.</p>
