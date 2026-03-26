@@ -1,3 +1,40 @@
+// Blog callout
+.blog-callout {
+  background: linear-gradient(135deg, $blue 0%, $blue-light 100%);
+  padding: 2rem 0;
+
+  .blog-callout__inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2rem;
+  }
+
+  .blog-callout__title {
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: #fff;
+    margin-bottom: 0.25rem;
+  }
+
+  .blog-callout__desc {
+    color: rgba(255, 255, 255, 0.85);
+    font-size: 0.95rem;
+    margin: 0;
+  }
+
+  .btn--primary {
+    background: #fff;
+    color: $blue;
+    white-space: nowrap;
+    flex-shrink: 0;
+
+    &:hover {
+      background: rgba(255, 255, 255, 0.9);
+    }
+  }
+}
+
 // About
 .about__text {
   font-size: 1.1rem;
