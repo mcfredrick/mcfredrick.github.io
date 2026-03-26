@@ -51,20 +51,4 @@
     justify-content: center;
     flex-wrap: wrap;
   }
-
-  &__blog-plug {
-    margin-top: 1.5rem;
-    font-size: 0.9rem;
-    opacity: 0.7;
-
-    a {
-      color: #fff;
-      text-decoration: underline;
-      text-underline-offset: 3px;
-
-      &:hover {
-        opacity: 0.9;
-      }
-    }
-  }
 }
